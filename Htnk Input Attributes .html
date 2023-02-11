@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1 align="center">Html input Attributes</h1>
+
+        <form action="/action_page.php" target="_blank" autocomplete="on" novalidate>
+
+        <h3 align="center">The Value Attributes</h3>
+
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">The readonly Attributes</h3>
+
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value="John" readonly><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe" readonly><br><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">The disabled Attributes</h3>
+
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value="John" disabled><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">The size Attributes</h3>
+
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" size="50"><br>
+        <label for="pin">Pin:</label><br>
+        <input type="text" id="pin" name="pin" size="4"><br><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">The maxlength Attributes</h3>
+
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" size="50"><br>
+        <label for="pin">Pin:</label><br>
+        <input type="text" id="pin" name="pin" maxlength="4" size="4"><br><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">The min and max Attributes</h3>
+
+        <label for="datemax">Enter a date before: 1980-01-01 :</label><br>
+        <input type="text" id="datemax" name="datemax" max="1997-12-31"><br>
+        <input type="date" id="datemax" name="datemax" max="1980-01-01"><br><br>
+
+        <label for="datemin">Enter a date after: 2000-01-01 :</label><br>
+        <input type="text" id="datemin" name="datemin" max="2000-01-01"><br>
+        <input type="date" id="datemin" name="datemin" max="2000-01-01"><br><br>
+
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">The multiple Attributes</h3>
+
+        <label for="sf">Select files:</label><br>
+        <input type="file" id="sf" name="sf" multiple><br><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">The pattern Attributes</h3>
+
+        <label for="cc">Country code:</label>
+        <input type="text" id="cc" name="cc" pattern="[A-Za-z]{3}" title="Three letter country code"><br><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">The placeholder Attributes</h3>
+
+        <label for="fname">Full name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter your full name"><br><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">The required Attributes</h3>
+
+        <label for="fname">Full name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter your full name" required><br><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">The input step Attributes</h3>
+
+        <label for="p">Points:</label>
+        <input type="number" id="p" name="p" step="2"><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">The autofocus Attributes</h3>
+
+        <label for="fname">Full name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter your full name" autofocus><br><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">The height and width Attributes</h3>
+
+        <label for="fname">Full name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter your full name"><br>
+        <input type="image" src="auto" width="50" height="50"><br><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">The list Attributes</h3>
+
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Internet Explorer"></option>
+            <option value="Chrome"></option>
+            <option value="Safari"></option>
+        </datalist>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">The autocomplete Attributes</h3>
+
+        <label for="fname">Full name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter your full name" autocomplete="on"><br><br>
+        <input type="submit" value="Submit">
+        </form>
+</body>
+</html>

@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Html Input Types</h1>
+
+    <h3 align="center">Input Type Text</h3>
+
+    <form action="">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">Password field</h3>
+
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">Input Type Submit</h3>
+
+        <form action="/action_page.php" target="_blank" method="get" autocomplete="on" novalidate>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lnae">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit"><br><br>
+        </form>
+
+        <h3 align="center">Input Type Reset</h3>
+
+        <form action="/action_page.php" target="_blank" method="get" autocomplete="on" novalidate>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lnae">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit"> <input type="reset" value="Reset"><br><br>
+        </form>
+
+
+        <h3 align="center">Input Type Radio</h3>
+
+        <input type="radio" id="html" name="html" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="css" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="js" name="js" value="JavaScript">
+        <label for="js">JavaScript</label><br><br>
+        <input type="submit" value="Submit">
+
+         <h3 align="center">Input Type Checkbox</h3>
+
+         <input type="checkbox" id="car" name="car" value="Car">
+        <label for="car">Car</label><br>
+        <input type="checkbox" id="bike" name="bike" value="Bike">
+        <label for="bike">Bike</label><br>
+        <input type="checkbox" id="boat" name="boat" value="boat">
+        <label for="boat">Boat</label><br><br>
+        <input type="submit" value="Sabmit">
+
+        <h3 align="center">Input Type button</h3>
+
+        <input type="button" onclick="("Hello world")" value="Click me">
+
+         <h3 align="center">Input Type Color</h3>
+
+         <label for="fcolor">Select your favorite color:</label>
+         <input type="color" id="fcolor" name="fcolor" value="lime">
+         <input type="submit" value="Submit"><br><br>
+
+         <h3 align="center">Input Type Date</h3>
+
+         <label for="birthday">Birthday</label>
+         <input type="date" id="bd" name="bd">
+         <input type="submit"><br><br>
+
+         <h3 align="center">Input Type Datetime-local</h3>
+
+         <label for="birthdaytime">Birthday (date and time):</label><br>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+        <input type="submit" value="Submit">
+
+        <h3 align="center">Input Type Email</h3>
+
+        <label for="email">Enter your email:</label><br>
+        <input type="email" id="email" name="email">
+        <input type="submit" value="Submit">
+
+        <h3 align="center">Input Type File</h3>
+
+        <input type="file"><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">Input Type Month</h3>
+
+        <label for="bdm">Birthday (month and date):</label><br>
+        <input type="month" id="bdm" name="bdm">
+        <input type="submit" value="Submit">
+
+        <h3 align="center">Input Type Number</h3>
+
+        <label for="n">Quantity (between 1 and 5):</label>
+        <input type="number" id="n" name="n" min="1" max="5"><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">Input Type Range</h3>
+
+        <label for="vol">Volume (between 0-50):</label><br>
+        <input type="range" id="vol" name="vol">
+        <input type="submit" value="Submit">
+
+        <h3 align="center">Input Type Search</h3>
+
+        <label for="gs">Search Google:</label>
+        <input type="search" id="gs" name="gs"><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">Input Type Telephone</h3>
+
+        <label for="tp">Enter a phone number:</label><br><br>
+        <input type="tel" id="tp" name="tp" placeholder="123-45-678" pattern="[0-9] {3} [0-9] - {2} [0-9] {3}" required><br><br>
+        <small>Formate:123-45-678</small><br><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">Input Type Time</h3>
+
+        <label for="t">Select a time:</label>
+        <input type="time" id="t" name="t">
+        <input type="submit" value="Submit">
+
+        <h3 align="center">Input Type URL</h3>
+
+        <label for="url">Add your homepage:</label><br>
+        <input type="url" id="url" name="url">
+        <input type="submit" value="Submit">
+
+        <h3 align="center">Input Type Week</h3>
+
+        <label for="week">Select a week</label>
+        <input type="week" id="week" name="week"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+    <h1 align="center">Oral Try</h1>
+
+    <h3 align="center">Input Type Text</h3>
+
+    <form action="">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit"><br><br>
+
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit"><br><br>
+
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit"><br><br>
+
+         <h3 align="center">Password field</h3>
+
+         <label for="username">Username:</label><br>
+         <input type="text" id="username" name="username"><br>
+         <label for="pwd">Password:</label><br>
+         <input type="password" id="pwd" name="pwd"><br><br>
+         <input type="submit" value="Submit"><br><br>
+
+         <label for="username">Username:</label><br>
+         <input type="text" id="username" name="username"><br>
+         <label for="pwd">Password:</label><br>
+         <input type="password" id="pwd" name="pwd"><br><br>
+         <input type="submit" value="Submit"><br><br>
+
+         <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        <input type="submit" value="Submit">
+
+        <h3 align="center">Input Type Submit</h3>
+
+        <form action="/action_page.php" target="_blank" method="get" autocomplete="on" novalidate>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lnae">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit"><br><br>
+
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lnae">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit"><br><br>
+
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lnae">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit"><br><br>
+        </form>
+
+
+        <h3 align="center">Input Type Reset</h3>
+
+        <form action="/action_page.php" target="_blank" method="get" autocomplete="on" novalidate>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lnae">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit"> <input type="reset" value="Reset"><br><br>
+
+
+        <form action="/action_page.php" target="_blank" method="get" autocomplete="on" novalidate>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lnae">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit"> <input type="reset" value="Reset"><br><br>
+
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lnae">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit"> <input type="reset" value="Reset"><br><br>
+        </form>
+
+         <h3 align="center">Input Type Radio</h3>
+
+         <label for="gender">Gender:</label><br>
+         <input type="radio" id="male" name="male" value="Male">Male
+         <input type="radio" id="female" name="female" value="Female">Female <br><br>
+         <input type="submit" value="Submit"><br><br>
+
+         <label for="hmtl">HTML:</label>
+         <input type="radio" id="html" name="html" value="HTML"><br>
+         <label for="css">CSS:</label>
+         <input type="radio" id="css" name="css" value="CSS"><br>
+         <label for="js">JavaScript</label>
+         <input type="radio" id="js" name="js" value="JavaScript"><br><br>
+         <input type="submit" value="Submit"><br><br>
+
+         <input type="radio" id="html" name="html" value="HTML">
+         <label for="html">HTML</label><br>
+         <input type="radio" id="css" name="css" value="CSS">
+         <label for="css">CSS</label><br>
+         <input type="radio" id="js" name="js" value="JavaScript">
+         <label for="js">JavaScript</label><br><br>
+         <input type="submit" value="Submit"><br><br>
+
+          <h3 align="center">Input Type Checkbox</h3>
+
+          <input type="checkbox" id="car" name="car" value="car">
+          <label for="car">Car</label><br>
+          <input type="checkbox" id="bike" name="bike" value="bike">
+          <label for="bike">Bike</label><br>
+          <input type="checkbox" id="boat" name="boat" value="boat">
+          <label for="boat">Boat</label><br><br>
+          <input type="submit" value="Submit"><br><br>
+
+           <input type="checkbox" id="pc" name="pc" value="pc">
+           <label for="pc">PC</label><br>
+           <input type="checkbox" id="ips" name="ips" value="ips">
+           <label for="ips">IPS</label><br>
+           <input type="checkbox" id="ac" name="ac" value="ac">
+           <label for="ac">AC</label><br><br>
+           <input type="submit" value="Submit"><br><br>
+
+            <input type="checkbox" id="a" name="a" value="a">
+            <label for="a">A</label><br>
+            <input type="checkbox" id="b" name="b" value="b">
+            <label for="b">B</label><br>
+            <input type="checkbox" id="c" name="c" value="c">
+            <label for="c">C</label><br><br>
+            <input type="submit" value="Submit"><br><br>
+
+
+            <h3 align="center">Input Type Button</h3>
+
+            <input type="button" onclick="("Hello world")" value="Click me"><br><br>
+            <input type="button" onclick="("Hello world")" value="Click me"><br><br>
+            <input type="button" onclick="("Hello world")" value="Click me">
+
+
+            <h3 align="center">Input Type Color</h3>
+
+            <label for="fcolor">Select your favorite color</label>
+            <input type="color" id="fcolor" name="fcolor" value="red">
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="fcolor">Select your favorite color</label>
+            <input type="color" id="fcolor" name="fcolor" value="fuchisa">
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="fc">Select your favorite color</label>
+            <input type="color" id="fc" name="fc" value="fc">
+            <input type="submit" value="Submit"><br><br>
+
+            <h3 align="center">Input Type Date</h3>
+
+            <label for="bd">Birthday:</label>
+            <input type="date" id="bd" name="bd">
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="bd">Birthday:</label>
+            <input type="date" id="bd" name="bd">
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="bd">Birthday:</label>
+            <input type="date" id="bd" name="bd">
+            <input type="submit" value="Submit">
+
+            <h3 align="center">Input Type Datetime-local</h3>
+
+            <label for="dfb">Birthday (date and time):</label><br>
+            <input type="datetime-local" id="dfb" name="dfb">
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="dfb">Birthday (date and time):</label><br>
+            <input type="datetime-local" id="dfb" name="dfb">
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="dfb">Birthday (date and time):</label><br>
+            <input type="datetime-local" id="dfb" name="dfb">
+            <input type="submit" value="Submit">
+
+            <h3 align="center">Input Type Email</h3>
+
+            <label for="email">Enter your email:</label><br>
+            <input type="email" id="email" name="email">
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="email">Enter your email:</label><br>
+            <input type="email" id="email" name="email">
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="email">Enter your email:</label><br>
+            <input type="email" id="email" name="email">
+            <input type="submit" value="Submit">
+
+            <h3 align="center">Input Type File</h3>
+
+            <input type="file"><br>
+            <input type="submit"><br><br>
+
+            <input type="file"><br>
+            <input type="submit" value="Submit"><br><br>
+
+            <input type="file"><br>
+            <input type="submit" value="Submit">
+
+            <h3 align="center">Input Type Month</h3>
+
+            <label for="bday">Birthday (month and date):</label><br>
+            <input type="month" id="bday" name="bday">
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="bday">Birthday (month and date):</label><br>
+            <input type="month" id="bday" name="bday">
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="bday">Birthday (month and date):</label><br>
+            <input type="month" id="bday" name="bday">
+            <input type="submit" value="Submit">
+
+            <h3 align="center">Input Type Number</h3>
+
+            <label for="quantity">Quantity (between 1 and 5):</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5"> <br>
+            <input type="submit"> <br><br>
+
+            <label for="qt">Quantity (between 1 and 5):</label>
+            <input type="number" id="qt" name="qt" min="1" max="5"><br>
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="qt">Quantity (between 1 and 5):</label>
+            <input type="number" id="qt" name="qt" min="1" max="5"><br>
+            <input type="submit" value="Submit">
+
+            <h3 align="center">Input Type Range</h3>
+
+            <label for="vol">Volume (between 0 and 50):</label><br>
+            <input type="range" id="vol" name="vol" min="0" max="50">
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="vol">Volume (between 0 and 50):</label><br>
+            <input type="range" id="vol" name="vol" min="0" max="50">
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="vol">Volume (between 0 and 50):</label><br>
+            <input type="range" id="vol" name="vol" min="0" max="50">
+            <input type="submit" value="Submit">
+
+            <h3 align="center">Input Type Search</h3>
+
+            <label for="gs">Search Google:</label>
+            <input type="search" id="gs" name="gs"><br>
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="gs">Search Google:</label>
+            <input type="search" id="gs" name="gs"><br>
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="sh">Search Here:</label>
+            <input type="search" id="sh" name="sh"><br>
+            <input type="submit" value="Submit">
+
+            <h3 align="center">Input Type Telephone</h3>
+
+            <label for="tp">Enter a phone number:</label><br><br>
+            <input type="tel" id="tp" name="tp" placeholder="123-45-678" pattern="[0-9] {3} - [0-9] {2} - [0-9] {3}" required><br><br>
+            <small>Format: 123-45-678</small><br><br>
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="tp">Enter a phone number:</label><br><br>
+            <input type="tel" id="tp" name="tp" placeholder="123-45-678" pattern="[0-9] {3} - [0-9] {2} - [0-9] {3}" required><br><br>
+            <small>Formate:123-45-678</small><br><br>
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="tp">Enter a phone number:</label><br><br>
+            <input type="tel" id="tp" name="tp" placeholder="123-45-678" pattern="[0-9] {3} [0-9] - {2} [0-9] {3}" required><br><br>
+            <small>Formate:123-45-678</small><br><br>
+            <input type="submit" value="Submit">
+
+            <h3 align="center">Input Type Time</h3>
+
+            <label for="t">Select a time:</label>
+            <input type="time" id="t" name="t">
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="t">Select a time:</label>
+            <input type="time" id="t" name="t">
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="t">Select a time:</label>
+            <input type="time" id="t" name="t">
+            <input type="submit" value="Submit">
+
+            <h3 align="center">Input Type URL</h3>
+
+            <label for="hp">Add your homepage:</label><br>
+            <input type="url" id="hp" name="hp">
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="hp">Add your homepage:</label><br>
+            <input type="url" id="hp" name="hp">
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="hp">Add your homepage:</label><br>
+            <input type="url" id="hp" name="hp">
+            <input type="submit" value="Submit">
+
+            <h3 align="center">Input Type Week</h3>
+
+            <label for="week">Select a week:</label>
+            <input type="week" id="week" name="week"><br>
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="week">Select a week:</label>
+            <input type="week" id="week" name="week"><br>
+            <input type="submit" value="Submit"><br><br>
+
+            <label for="week">Select a week:</label>
+            <input type="week" id="week" name="week"><br>
+            <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
